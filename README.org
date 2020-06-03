@@ -1,1 +1,20 @@
 * Moose-Hit-Format.el
+
+** Install
+
+#+begin_example
+git clone https://github.com/dylanjm/moose-hit-format.el ~/.emacs.d/site-lisp/moose-hit-format
+#+end_example
+
+Then add the following to your =init.el=
+#+begin_src emacs-lisp
+(add-to-list 'load-path "~/.emacs.d/site-lisp/moose-hit-format/moose-hit-format.el")
+(require 'moose-hit-format)
+#+end_src
+
+Or if you use Straight.el
+
+#+begin_src emacs-lisp
+(use-package moose-hit-format
+  :straight (:host github :repo "dylanjm/moose-hit-format.el" :files ("*")))
+#+end_src

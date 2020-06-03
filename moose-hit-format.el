@@ -41,6 +41,7 @@ if it isn't an absolute path to the binary."
   :type 'string
   :group 'moose-hit-format)
 
+;;;###autoload
 (defun moose-hit-format ()
   "Use hit format executable on the current buffer."
   (interactive)
