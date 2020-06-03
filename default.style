@@ -1,0 +1,16 @@
+[format]
+    indent_string = "  "
+    line_length = 100
+    canonical_section_markers = true
+
+    [sorting]
+        [pattern]
+            section = "[^/]+/[^/]+"
+            order = "type"
+        []
+        [pattern]
+            section = ""
+            order = "Mesh ** Executioner Outputs"
+        []
+    []
+[]
